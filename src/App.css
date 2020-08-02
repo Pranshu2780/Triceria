@@ -27,7 +27,7 @@ header{
    background: none;
    color:#edf0f1;
    font-size: 30px;
-   color: blue;
+   color: #FF69B4;
    animation-name: namee;
    animation-iteration-count: infinite;
 }
@@ -52,7 +52,7 @@ header{
 }
 
 .navbar li a:hover{
-  color: #0088a9;
+  color: #8B008B;
 }
 
 .btn{
@@ -83,4 +83,26 @@ header{
 .btn:hover{
   background-color: #0088a9;
   cursor: pointer;
+}
+
+.tag{
+  position: absolute;
+  padding-top: 140px;
+  padding-left: 195px;
+  color: white;
+}
+
+.output_heading{
+  position: absolute;
+  top: 400px;
+  font-size: 20px;
+  color: white;
+  left:125px;
+}
+.output{
+  position: absolute;
+  top: 440px;
+  color: white;
+  font-size: 18px;
+  left:125px;
 }

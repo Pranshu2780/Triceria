@@ -1,8 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Form from './Form'
+// import ScriptTag from 'react-script-tag';
 
-function App() {
+class App extends React.Component {
+ 
+
+  render(){
   return (
     <div className="App">
       
@@ -12,19 +16,29 @@ function App() {
            <div className="name"> Guessing Game </div>
            <nav className="nac">
               <ul className="navbar" >
-                   <li> <a href="#"> Home </a> </li>
-                   <li> <a href="#"> Rules </a> </li>  
+                   <li> <a href="/#"> Home </a> </li>
+                   <li> <a href="/#"> Rules </a> </li>  
               </ul>
            </nav> 
        </header>    
       
+      
+       <h1 className="tag" >Guess The number</h1>
        {/* Navigation Bar End */}
      
-       <input className="input" type="text" name="entering" />
-       <button className="btn" > Enter </button> 
-    
+       
+
+        <div className="output_heading">Output</div>
+        <div className="output"> here </div>
+
+
+          <Form />
     </div>
-  );
+
+       
+       
+   );
+}
 }
 
 export default App;
